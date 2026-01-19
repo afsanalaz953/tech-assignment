@@ -164,7 +164,9 @@ flex-direction: column;
     width: 20px;
     height: 30px;
 }
-
+about-icon{
+    background-color: aqua;
+}
 
 
 
