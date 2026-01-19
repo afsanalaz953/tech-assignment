@@ -142,17 +142,13 @@ flex-direction: column;
     height:646px ;
     background-color: rgb(26, 11, 46);
     color: white;
-    padding: 200 50 200 120;
+   padding: 30px 200px 120px 200px;
 }
 .about{
    max-width: 1200px;
     height: 222px;
     flex-direction: column;
     text-align: center;
-}
-
-.about-heading{
-   
 }
 .about-para{
     max-width: 1200px;
@@ -164,11 +160,21 @@ flex-direction: column;
     flex-direction: column;
 }
 .line{
-    width: 20px;
-    height: 30px;
+    max-width: 1600px;
+    height: 646px;
+  
 }
-about-icon{
-    background-color: aqua;
+.hori-line{
+       width: 1200px;
+    height: 0px;
+    border: 1px solid red;
+    gap: 80px;
+    text-align: center;
+}
+.about-icon{
+    width: 1200px;
+    height: 94px;
+   background-color: aqua;
 }
 
 
