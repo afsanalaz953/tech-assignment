@@ -143,12 +143,14 @@ flex-direction: column;
     background-color: rgb(26, 11, 46);
     color: white;
    padding: 30px 200px 120px 200px;
+   gap: 20px;
 }
 .about{
    max-width: 1200px;
     height: 222px;
     flex-direction: column;
     text-align: center;
+    gap: 15px;
 }
 .about-para{
     max-width: 1200px;
@@ -160,24 +162,39 @@ flex-direction: column;
     flex-direction: column;
 }
 .line{
-    max-width: 1600px;
+   max-width: 1200px;
     height: 646px;
-  
+  padding: 50px 80px 80px 50px;
 }
 .hori-line{
-       width: 1200px;
+       width: 1000px;
     height: 0px;
-    border: 1px solid red;
-    gap: 80px;
-    text-align: center;
+    padding-right: 80px;
+    border: -.01px solid rgb(226, 218, 226);
+    text-align: center;    
 }
 .about-icon{
     width: 1200px;
     height: 94px;
    background-color: aqua;
+   gap: 20px;
 }
-
-
+.icon{
+    width: 240px;
+    height: 94px;
+       text-align: center;
+       margin-top: 15px;
+}
+h3{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+.icon>p{
+    color: #FFFFFF;
+}
+/* about close */
+/* grid start */
 
 @media screen and (max-width:576px) {
     .menu, .menubtn {
