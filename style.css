@@ -212,9 +212,12 @@ h3{
     display: grid;
     gap: 3px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 395px, 137px);
+    grid-template-rows: repeat(6, 200px);
     background-color: rgb(42, 15, 77);
    
+}
+.choose{
+    width: 100%;
 }
 .choose-text{
    border-radius: 20px;
