@@ -209,7 +209,7 @@ h3{
 .choose-container{
     max-width: 1200px;
     height: 783px;
-    border: 2px solid red;
+   
     display: grid;
   background-color: rgb(42, 15, 77);
     grid-template-columns: repeat(6, 1fr);
@@ -242,34 +242,97 @@ h3{
 /* for mob */
 .item-2{
     grid-area: b;
-    flex-direction: column;
-  
     padding: 40px;
     gap: 16px;
     
-   
-    padding: 40px;
-    gap: 16px;
 }
 /* for gol */
 .item-3{
     grid-area: c;
+     padding: 40px;
+   
 }
 /* for ex */
 .item-4{
     grid-area:d ;
+     padding: 40px;
+    
 }
 /* rich */
 .item-5{
     grid-area:e ;
-}
-.choose{
-    flex-direction: column; 
-    align-items: flex-start;
-    text-align: left;
-    justify-items: left;
+     padding: 40px;
     
 }
+.choose{
+    flex-direction: column;
+    text-align: left;
+    gap: 16px;
+    
+}
+.choose>h3{
+    font-size: 24px; 
+    color: white;
+}
+.choose>p{
+    color: #eedede;
+}
+.featured-section{
+    max-width: 1600px;
+    height: 1276px;
+    background-color:#1A0B2E ;
+    gap: 20px;
+}
+.featured-container{
+    width: 1200px;
+    height: 538px;
+    padding: 80px 200px;
+    
+    border: 2px solid red;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 1200px;
+    height:440px ;
+    gap: 30px;
+      
+}
+.feature-icon{
+    width:332px ;
+    height: 24px;
+    color: green;
+    gap: 6px;
+}
+.card1{
+  max-width: 380px;
+    height:400px ;
+    flex-direction: column;
+    border-radius: 20px;
+    
+    background-color:rgb(37, 13, 68) ;
+
+       
+}
+.card2{
+     max-width: 380px;
+    height:400px ;
+    flex-direction: column;
+     border-radius: 20px;
+    
+    background-color:rgb(37, 13, 68) ;
+
+}
+.card3{
+     max-width: 380px;
+    height:400px ;
+    flex-direction: column;
+    border-radius: 20px;
+    
+    background-color:rgb(37, 13, 68) ;
+
+}
+
+
 
 
 
