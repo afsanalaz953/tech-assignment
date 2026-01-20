@@ -287,8 +287,6 @@ h3{
     width: 1200px;
     height: 538px;
     padding: 80px 200px;
-    
-    border: 2px solid red;
     flex-wrap: wrap;
 }
 .card{
@@ -308,7 +306,7 @@ h3{
     height:400px ;
     flex-direction: column;
     border-radius: 20px;
-    
+    padding: 24px 24px;
     background-color:rgb(37, 13, 68) ;
 
        
@@ -318,7 +316,7 @@ h3{
     height:400px ;
     flex-direction: column;
      border-radius: 20px;
-    
+    padding: 24px 24px;
     background-color:rgb(37, 13, 68) ;
 
 }
@@ -327,7 +325,7 @@ h3{
     height:400px ;
     flex-direction: column;
     border-radius: 20px;
-    
+    padding: 24px 24px;
     background-color:rgb(37, 13, 68) ;
 
 }
