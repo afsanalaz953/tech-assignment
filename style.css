@@ -279,9 +279,10 @@ h3{
 }
 .featured-section{
     max-width: 1600px;
-    height: 1276px;
+    /* height: 1276px; */
     background-color:#1A0B2E ;
     gap: 20px;
+    padding: 120px 200px;
 }
 .featured-container{
     width: 1200px;
@@ -329,10 +330,47 @@ h3{
     background-color:rgb(37, 13, 68) ;
 
 }
-
-
-
-
+/* meet section start */
+.meet-section{
+    max-width: 1600px;
+    height:1276px ;
+    padding: 0px 200px 120px 200px;
+    gap: 40px;
+    background-color:rgb(26, 11, 46) ;
+   
+}
+.meet-container{
+ max-width: 1200px;
+    height:378px ;
+    border: 2px solid red;
+    flex-direction: column;
+    flex-shrink: 0;
+   
+}
+.meet-text{
+  max-width: 920px;  
+  height: 183px;
+   background-color:rgb(37, 13, 68) ;
+   border-radius: 10px;
+   gap: 130px;
+   flex: 1;
+   text-align: left;
+   justify-content: center;
+  
+}
+.meet-img{
+    width:100px ;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    text-align: center;
+    align-items: center;
+    
+}
+.text{
+ line-height: 24px;
+ gap: 16px;
+}
 
 
 
