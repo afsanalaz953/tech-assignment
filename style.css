@@ -146,7 +146,7 @@ flex-direction: column;
    gap: 20px;
 }
 .about{
-   max-width: 1200px;
+    max-width: 1200px;
     height: 222px;
     flex-direction: column;
     text-align: center;
@@ -163,11 +163,11 @@ flex-direction: column;
 }
 .line{
    max-width: 1200px;
-    height: 646px;
-  padding: 50px 80px 80px 50px;
+   height: 646px;
+   padding: 50px 80px 80px 50px;
 }
 .hori-line{
-       width: 1000px;
+    width: 1000px;
     height: 0px;
     padding-right: 80px;
     border: -.01px solid rgb(226, 218, 226);
@@ -176,14 +176,13 @@ flex-direction: column;
 .about-icon{
     width: 1200px;
     height: 94px;
-   background-color: aqua;
-   gap: 20px;
+    gap: 20px;
 }
 .icon{
     width: 240px;
     height: 94px;
-       text-align: center;
-       margin-top: 15px;
+    text-align: center;
+    margin-top: 15px;
 }
 h3{
     color: green;
