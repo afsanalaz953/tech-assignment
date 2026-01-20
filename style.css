@@ -200,6 +200,7 @@ h3{
     padding: 200px 120px;
     flex-direction: column;
     background-color:rgb(26, 11, 46) ;
+    gap: 40px;
 }
 .choose-head{
     max-width: 1200px;
@@ -210,36 +211,66 @@ h3{
     height: 783px;
     border: 2px solid red;
     display: grid;
-    gap: 3px;
+  background-color: rgb(42, 15, 77);
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 200px);
-    background-color: rgb(42, 15, 77);
+    grid-template-rows: repeat(6, 1fr); 
+    
+   grid-template-areas: 
+  "a a b b b b"
+  "a a b b b b"
+  "a a c c c c"
+  "d d d d e e"
+  "d d d d e e "
+  ; 
+  
+}
+.item{
+    border-radius: 20px;
+    border: 2px white solid;
+    gap: 3px;
+    
+}
+/* for primium */
+.item-1{
+    
+    grid-area: a;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 16px;
+}
+/* for mob */
+.item-2{
+    grid-area: b;
+    flex-direction: column;
+  
+    padding: 40px;
+    gap: 16px;
+    
    
+    padding: 40px;
+    gap: 16px;
+}
+/* for gol */
+.item-3{
+    grid-area: c;
+}
+/* for ex */
+.item-4{
+    grid-area:d ;
+}
+/* rich */
+.item-5{
+    grid-area:e ;
 }
 .choose{
-    width: 100%;
-}
-.choose-text{
-   border-radius: 20px;
-   border: 2px solid white;
-}
-.two-c-four-r-layout{
-    grid-column: span 2;
-    grid-row: span 4;
-}
-.four-c-two-r{
-    grid-column: span 4;
-    grid-row: span 2; 
-}
-.two-c-two-r{
-    grid-column: span 2;
-    grid-row: span 2; 
+    flex-direction: column; 
+    align-items: flex-start;
+    text-align: left;
+    justify-items: left;
+    
 }
 
-.two-r-four-c{
-      grid-column: span 4;
-    grid-row: span 2; 
-}
 
 
 
