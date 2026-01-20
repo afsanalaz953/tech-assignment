@@ -194,6 +194,39 @@ h3{
 }
 /* about close */
 /* grid start */
+.choose-section{
+    max-width: 1600px;
+    height:1121px;
+    padding: 200px 120px;
+    flex-direction: column;
+}
+.choose-head{
+    max-width: 1200px;
+    height: 58px;
+}
+.choose-container{
+    max-width: 1200px;
+    height: 783px;
+    border: 2px solid red;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 395px, 137px);
+}
+.choose-text{
+    max-width: ;
+    height: ;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .menu, .menubtn {
