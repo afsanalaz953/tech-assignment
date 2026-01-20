@@ -199,6 +199,7 @@ h3{
     height:1121px;
     padding: 200px 120px;
     flex-direction: column;
+    background-color:rgb(26, 11, 46) ;
 }
 .choose-head{
     max-width: 1200px;
@@ -212,12 +213,30 @@ h3{
     gap: 3px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 395px, 137px);
+    background-color: rgb(42, 15, 77);
+   
 }
 .choose-text{
-    max-width: ;
-    height: ;
+   border-radius: 20px;
+   border: 2px solid white;
+}
+.two-c-four-r-layout{
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.four-c-two-r{
+    grid-column: span 4;
+    grid-row: span 2; 
+}
+.two-c-two-r{
+    grid-column: span 2;
+    grid-row: span 2; 
 }
 
+.two-r-four-c{
+      grid-column: span 4;
+    grid-row: span 2; 
+}
 
 
 
