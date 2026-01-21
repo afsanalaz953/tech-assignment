@@ -128,6 +128,7 @@ flex-direction: column;
     border-radius: 20px;
     display: flex;
     padding: 5px 8px 5px;
+    cursor: pointer;
     
 }
 .btn2{
@@ -138,7 +139,7 @@ flex-direction: column;
     background-color:rgb(25, 14, 55);
     border: 1px solid green;
      display: flex;
-
+cursor: pointer;
 }
 .btn{
     text-align: center;
