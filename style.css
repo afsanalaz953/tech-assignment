@@ -352,7 +352,7 @@ h3{
   height: 183px;
    background-color:rgb(37, 13, 68) ;
    border-radius: 10px;
-   gap: 130px;
+   gap: 80px;
    flex: 1;
    text-align: left;
    justify-content: center;
@@ -369,11 +369,32 @@ h3{
 }
 .text{
  line-height: 24px;
- gap: 16px;
+ gap: 30px;
 }
-
-
-
+/* footer section */
+.footer-section{
+    max-width: 1600px;
+    height: 412px;
+    background: url(./B13-A02-TechWave/assets/footer-bg.png);
+     padding: 150px;
+    
+    
+}
+.footer-container{
+    max-width: 1360px;
+    height: 172px;
+    flex-direction: column; 
+    gap: 20px;
+}
+.footer-social{
+    color:rgb(192, 186, 186);
+    width: 544px;
+    height:24px ;
+    gap: 40px;
+}
+.copyright{
+    color: rgb(192, 186, 186);
+}
 
 
 
