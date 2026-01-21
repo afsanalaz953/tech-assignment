@@ -280,7 +280,7 @@ h3{
 }
 .featured-section{
     max-width: 1600px;
-    /* height: 1276px; */
+    height: 1276px;
     background-color:#1A0B2E ;
     gap: 20px;
     padding: 80px 200px;
@@ -388,9 +388,11 @@ max-width: 1200px;
  flex-direction: column;
  text-align: left;
  align-items: flex-start;
-
- 
 }
+.text>p{
+    color: #afa2a2;
+}
+
 /* footer section */
 .footer-section{
     max-width: 1600px;
