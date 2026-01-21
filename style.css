@@ -352,10 +352,7 @@ h3{
    gap: 15px;
    flex: 1;
    text-align: left;
-padding: 20px 20px 40px;
-    
-   
-  
+   padding: 20px 20px 40px; 
 }
 .meet-img{
     width:100 px;
@@ -363,9 +360,7 @@ padding: 20px 20px 40px;
     border-radius: 100%;
     object-fit: cover;
     text-align: center;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 .meet-icon{
     gap: 20px;
