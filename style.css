@@ -286,7 +286,7 @@ h3{
     padding: 80px 200px;
 }
 .featured-container{
-    width: 1200px;
+max-width: 1200px;
     height: 538px;
      padding: 80px 200px;
     
